@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="石田保辉，宫崎修一. 2017[2015]. 《演算法图鉴》. 陈彩华译. 台北：脸谱出版"/>
+
+
+
+
+  <meta name="keywords" content="读书笔记,计算机," />
+
+
+
+
+
+  <link rel="alternate" href="/default" title="Yefan Zhi Blog" >
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/1800.png?v=1.1" />
+
+
+
+<link rel="canonical" href="http://example.com/2022/01/07/Algorithms-Explained-and-Illustrated/"/>
+
+
+<meta name="description" content="石田保辉，宫崎修一. 2017[2015]. 《演算法图鉴》. 陈彩华译. 台北：脸谱出版">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《演算法图鉴》">
+<meta property="og:url" content="http://example.com/2022/01/07/Algorithms-Explained-and-Illustrated/index.html">
+<meta property="og:site_name" content="Yefan Zhi Blog">
+<meta property="og:description" content="石田保辉，宫崎修一. 2017[2015]. 《演算法图鉴》. 陈彩华译. 台北：脸谱出版">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-01-08T02:40:50.000Z">
+<meta property="article:modified_time" content="2022-01-16T01:58:14.000Z">
+<meta property="article:author" content="Yefan Zhi">
+<meta property="article:tag" content="读书笔记">
+<meta property="article:tag" content="计算机">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 《演算法图鉴》 - Yefan Zhi Blog </title>
+  <meta name="generator" content="Hexo 7.3.0"></head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Yefan Zhi Blog</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          《演算法图鉴》
+        
+      </h1>
+
+      <time class="post-time">
+          Jan 07 2022
+          
+      </time>
+      
+    </header>
+
+
+
+    
+           <div class="post-excerpt post-content">
+            
+            
+              
+            
+
+            
+              石田保辉，宫崎修一. 2017[2015]. 《演算法图鉴》. 陈彩华译. 台北：脸谱出版
+        </div>
+            
+            <div class="post-content">
+            <h1 id="安全性算法内容整理"><a href="#安全性算法内容整理" class="headerlink" title="安全性算法内容整理"></a>安全性算法内容整理</h1><h2 id="传输数据会产生的四个主要问题"><a href="#传输数据会产生的四个主要问题" class="headerlink" title="传输数据会产生的四个主要问题"></a>传输数据会产生的四个主要问题</h2><p>窃听（Eavesdrop）：数据在传输时被第三方偷取。因此需要加密。</p>
+<p>欺骗（Spoofing）：第三方伪装成接收方接受数据，或伪装成发送方发送数据。用消息认证码和数字签名防范此问题。</p>
+<p>篡改（Falsification）：第三方在传输过程中改动数据。用消息认证码和数字签名防范此问题。</p>
+<p>抵赖（Repudiation）：发送方否认已发出的消息。用数字签名防范此问题。</p>
+<p>&nbsp;</p>
+<h2 id="哈希函数（Hash-Function）"><a href="#哈希函数（Hash-Function）" class="headerlink" title="哈希函数（Hash Function）"></a>哈希函数（Hash Function）</h2><p>根据输入数据生成固定长度的不规则值（哈希码）的函数。</p>
+<p>输入完全不同的数据时，有很低的概率得到相同的哈希码，发生哈希碰撞（Hash Collision）。</p>
+<p>例如：MD5（Messege-Digest Algorithm 5），SHA-1（Secure Hash Algorithm 1)，SHA-2（Secure Hash Algorithm 2，最普遍和安全）。</p>
+<p>&nbsp;</p>
+<h2 id="对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）"><a href="#对称加密算法（共享密钥加密算法，Shared-Key-Cryptosystem）" class="headerlink" title="对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）"></a>对称加密算法（共享密钥加密算法，Shared-Key Cryptosystem）</h2><p>发送和接收方使用同一个密钥解密和加密。</p>
+<p>例如：凯撒密码（Caesar cipher），AES（Advanced Encryption Standard），DES（Data Encryption Standard），一次性密码本（One-Time Pad）。</p>
+<p>案例：英格玛（Enigma）。</p>
+<p>意义和特点：易于设计，加密和解密的速度快。但有密钥被偷窥的风险，或者说密钥传输比较困难。</p>
+<p>&nbsp;</p>
+<h2 id="非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）"><a href="#非对称加密算法（公开密钥加密算法，Public-Key-Cryptosystem）" class="headerlink" title="非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）"></a>非对称加密算法（公开密钥加密算法，Public-Key Cryptosystem）</h2><p>接收方设计一对加密公钥和解密私钥，将公钥公开，发送方使用公钥加密，接收方使用私钥解密。</p>
+<p>例如：RSA，圆锥曲线密码（ECC，Elliptic-Curve Cryptosystem）。</p>
+<p>案例：紫操学姐寻人帖（笑）。</p>
+<p>意义和特点：设计困难，加密和解密更费时。</p>
+<p>&nbsp;</p>
+<h2 id="混合加密系统（Hybrid-Cryptosystem）"><a href="#混合加密系统（Hybrid-Cryptosystem）" class="headerlink" title="混合加密系统（Hybrid Cryptosystem）"></a>混合加密系统（Hybrid Cryptosystem）</h2><p>接收方设计一对加密公钥A和解密私钥B，将A公开。发送方设计另一个密钥C，使用A公钥加密C后发送给接收方。接收方使用B解密得到C。</p>
+<p>此后发送和接收方使用同一个密钥C解密和加密。</p>
+<p>案例：SSL（Secure Sockets Layer），TLS（Transport Layer Security）。</p>
+<p>意义和特点：解决非对称加密算法费时的问题。因此兼具安全性和处理速度。</p>
+<p>&nbsp;</p>
+<h2 id="迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）"><a href="#迪菲-赫尔曼密钥交换（Diffie–Hellman-Key-Exchange）" class="headerlink" title="迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）"></a>迪菲-赫尔曼密钥交换（Diffie–Hellman Key Exchange）</h2><p>A、B两方共享原始公钥P，分别设计私钥SA，SB。</p>
+<p>根据公钥P，分别合成新的公钥P-SA，P-SB并直接发送给对方。</p>
+<p>根据手上的私钥和新获得的公钥，A、B进一步合成密钥P-SB-SA，P-SA-SB。</p>
+<p>密钥合成的方法要求合成结果与顺序无关，因此密钥P-SB-SA和P-SA-SB是等价的，都称为P-SA-SB。</p>
+<p>现在双方可以用P-SA-SB为密钥实现非对称加密传输。而第三方根据公钥P，P-SA，P-SB无法合成密钥P-SA-SB。</p>
+<p>例如：基于离散对数问题（Discrete Logarithm Problem）设计的密钥合成方法：</p>
+<p>P为底数G和被除数Q（一个非常大的素数）。</p>
+<p>SA为指数A。SB为指数B。</p>
+<p>P-SA为G^A mod Q。P-SB为G^B mod Q。</p>
+<p>P-SA-SB为(G^A mod Q)^B mod Q。</p>
+<p>P-SB-SA为(G^B mod Q)^A mod Q。</p>
+<p>P-SB-SA和P-SA-SB是等价的，而第三方根据P，P-SA，P-SB无法合成P-SA-SB。</p>
+<p>意义和特点：解决对称加密算法密钥传输困难的问题。</p>
+<p>&nbsp;</p>
+<h2 id="消息认证码（Message-Authentication-Code，MAC）"><a href="#消息认证码（Message-Authentication-Code，MAC）" class="headerlink" title="消息认证码（Message Authentication Code，MAC）"></a>消息认证码（Message Authentication Code，MAC）</h2><p>MAC是对信息（在安全性算法中，信息是传输的密文）进行处理得到的认证码。MAC不包含原始内容，只是作为识别用。</p>
+<p>在传输信息时也传输MAC进行核对以防篡改，</p>
+<p>例如：HMAC（Hash-based MAC），OMAC（One-key MAC），CMAC（Cipher-based MAC）</p>
+<p>&nbsp;</p>
+<h2 id="数字签名（Digital-Signature）"><a href="#数字签名（Digital-Signature）" class="headerlink" title="数字签名（Digital Signature）"></a>数字签名（Digital Signature）</h2><p>发送方设计一对加密私钥和解密公钥，将公钥公开，发送方使用私钥加密信息制作数字签名，接收方使用公钥解密验证数字签名。因此只有发送方能制作与信息相对应的合法的数字签名。</p>
+<p>意义：防范欺骗、篡改和抵赖。</p>
+<p>&nbsp;</p>
+<h2 id="数字证书（Digital-Certificate）"><a href="#数字证书（Digital-Certificate）" class="headerlink" title="数字证书（Digital Certificate）"></a>数字证书（Digital Certificate）</h2><p>证书授权中心（Certificate Authority，CA）是独立于发送方和接收方的机构。它用于解决无法确认公钥是否为发送方发送的问题。</p>
+<p>发送方A欲将原始信息P0（发送方设计的公钥）传送给接受方B前，首先在CA申请取得数字证书。CA设计与A的身份信息对应的一组加密私钥S1和解密公钥P1。CA用S1加密P0得到P0-S1，发送给A。A将P0-S1告知B。B再根据A的身份信息（电子邮件）从CA处获得公钥P1，用P1解密P0-S1得到A的原始信息P0。因第三方无法以A的身份信息向CA获得数字证书，因此它可以防止第三方伪装成A发送信息。</p>
+<p>当发送方为网站时，证书即是服务器证书（Server Certificate）。</p>
+<p>CA的真实性由上一层CA认证，因此CA呈现一种套娃的树状担保结构。最上层的根认证机构（Root CA）多为大企业或政府机关。这形成了公开密钥基础建设（Public Key Infrastructure，PKI）。</p>
+<h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/baidu_22254181/article/details/82594072">https://blog.csdn.net/baidu_22254181/article/details/82594072</a></p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+
+		<div class="post-tags">
+		  
+			<a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>
+		  
+			<a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a>
+		  
+		</div>
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      
+        <a class="prev" href="/2022/01/13/PMA/">
+          <i class="iconfont icon-left"></i>
+          <span class="prev-text nav-default">在费城艺术博物馆阅读艺术史</span>
+          <span class="prev-text nav-mobile">Prev</span>
+        </a>
+      
+    
+    
+      
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2016 -
+    
+    2025
+    <span class="footer-author">Yefan Zhi.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> and <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>.
+    </span>
+    
+</span>
+
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
