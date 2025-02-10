@@ -1014,8 +1014,8 @@ h6 {
 
 #colophon {
   clear: both;
-  width: 100%;
-  flex-basis: 100%;
+  width: 100% !important;
+  flex-basis: 100% !important;
   margin: 30px auto 0;
   padding: 20px 0;
   border-top: 1px solid #e1e1e1;
