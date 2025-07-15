@@ -1016,10 +1016,8 @@ h6 {
   clear: both;
   width: 100% !important;
   flex-basis: 100% !important;
-  margin-top: 30px;
-  margin-left: calc(50vw - 425px);
-  margin-right: calc(50vw - 425px);
-  padding-top: 20px;
+  margin: 30px auto 0;
+  padding: 20px 0;
   border-top: 1px solid #e1e1e1;
   color: #aaa;
   font-size: 14px;
