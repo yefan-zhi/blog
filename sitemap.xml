@@ -621,7 +621,7 @@
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E6%89%8B%E5%B7%A5/</loc>
+    <loc>https://yefan-zhi.github.io/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -635,7 +635,7 @@
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E5%9F%8E%E5%B8%82%E7%A0%94%E7%A9%B6/</loc>
+    <loc>https://yefan-zhi.github.io/tags/%E6%89%8B%E5%B7%A5/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -663,35 +663,7 @@
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yefan-zhi.github.io/tags/%E5%BB%BA%E7%AD%91%E5%AD%A6/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yefan-zhi.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yefan-zhi.github.io/tags/%E8%AE%BA%E6%96%87/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yefan-zhi.github.io/tags/%E6%96%B0%E9%97%BB%E5%AD%A6/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -705,14 +677,28 @@
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E6%B3%95%E8%AF%AD/</loc>
+    <loc>https://yefan-zhi.github.io/tags/%E6%96%B0%E9%97%BB%E5%AD%A6/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E6%9C%AA%E5%AE%8C%E6%88%90/</loc>
+    <loc>https://yefan-zhi.github.io/tags/%E5%BB%BA%E7%AD%91%E5%AD%A6/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yefan-zhi.github.io/tags/%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yefan-zhi.github.io/tags/%E6%B3%95%E8%AF%AD/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -726,7 +712,14 @@
   </url>
   
   <url>
-    <loc>https://yefan-zhi.github.io/tags/%E5%93%B2%E5%AD%A6/</loc>
+    <loc>https://yefan-zhi.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yefan-zhi.github.io/tags/%E6%9C%AA%E5%AE%8C%E6%88%90/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -734,6 +727,13 @@
   
   <url>
     <loc>https://yefan-zhi.github.io/tags/%E8%89%BA%E6%9C%AF%E5%8F%B2/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yefan-zhi.github.io/tags/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
